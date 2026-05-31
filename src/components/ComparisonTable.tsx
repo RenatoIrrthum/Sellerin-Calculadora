@@ -1,4 +1,4 @@
-﻿import type { MarketplaceResult } from '../types';
+import type { MarketplaceResult } from '../types';
 import type { CalcMode } from '../types';
 import { formatCurrency, formatPercent } from '../utils/calculations';
 

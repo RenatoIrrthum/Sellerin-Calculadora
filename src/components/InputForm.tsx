@@ -1,4 +1,4 @@
-﻿import type { CalculatorInputs, MLPlan, MLReputation, AmazonPlan, TikTokPayment } from '../types';
+import type { CalculatorInputs, MLPlan, MLReputation, AmazonPlan, TikTokPayment } from '../types';
 import { CATEGORIES } from '../data/categories';
 
 interface Props {

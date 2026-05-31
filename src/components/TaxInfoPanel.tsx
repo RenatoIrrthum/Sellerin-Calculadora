@@ -1,4 +1,4 @@
-﻿import { CATEGORIES, ML_CATEGORY_RATES, AMAZON_CATEGORY_RATES } from '../data/categories';
+import { CATEGORIES, ML_CATEGORY_RATES, AMAZON_CATEGORY_RATES } from '../data/categories';
 
 interface Props {
   selectedCategory: string;

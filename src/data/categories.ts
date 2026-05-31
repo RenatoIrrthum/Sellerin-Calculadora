@@ -1,4 +1,4 @@
-﻿import type { Category } from '../types';
+import type { Category } from '../types';
 
 export const CATEGORIES: Category[] = [
   { id: 'eletronicos', name: 'EletrÃ´nicos, Ãudio e VÃ­deo' },

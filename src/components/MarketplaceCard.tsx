@@ -1,4 +1,4 @@
-﻿import { useState } from 'react';
+import { useState } from 'react';
 import type { MarketplaceResult } from '../types';
 import type { CalcMode } from '../types';
 import { formatCurrency, formatPercent } from '../utils/calculations';
