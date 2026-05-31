@@ -8,14 +8,6 @@ export interface MLCategoryFees {
   premiumRate: number;
 }
 
-export interface ShopeeFeeTier {
-  minPrice: number;
-  maxPrice: number;
-  commissionRate: number;
-  fixedFee: number;
-  label: string;
-}
-
 export interface AmazonCategoryFees {
   rate: number;
   splitThreshold?: number;
@@ -29,8 +21,11 @@ export type TikTokPayment = 'pix' | 'cartao';
 export type CalcMode = 'suggested_price' | 'check_margin';
 
 export interface CalculatorInputs {
-  productCost: number;
-  shippingCostFull: number;
+  supplierPrice: number;
+  ipi: number;
+  icmsEntrada: number;
+  productWeight: number;
+  salesTaxRate: number;
   desiredMargin: number;
   category: string;
   calcMode: CalcMode;
@@ -66,4 +61,3 @@ export interface MarketplaceResult {
   tierNote?: string;
   plan?: string;
 }
-
